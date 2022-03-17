@@ -1,0 +1,107 @@
+html {
+  font-size: 9.5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-align: center;
+  color: #262525;
+  background-color: #140d08;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-shadow: 2px 2px #bda3a3;
+}
+#title-sec{
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #1278ccc7;
+}
+
+a:visited {
+  color: #05354b;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background-image: url('https://files.123freevectors.com/wp-content/original/161175-grey-and-white-texture-background.jpg');
+  background-size: contain;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  align-self: center;
+}
+
+#img-div {
+  background: #8d724a;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #f5f5f5;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.3rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 90%;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+li {
+  margin: 15px 0;
+  background-color: hsl(0, 10%, 84%);
+  width: fit-content;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  text-shadow: #f7ebeb;
+}
