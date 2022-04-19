@@ -1,0 +1,21 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+.submit, .reset{
+     background-color: rgb(250,250,250);
+}
+ label textarea{
+        vertical-align: middle;
+}
+
+label {
+    display: inline-block;
+ 	text-align: right;
+}
+h4{
+	margin-bottom: 0px;
+}
+fieldset{
+    width: fit-content;
+}

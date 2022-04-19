@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module3: Home-based Activity 5v2</title>
+  <link rel="stylesheet" type="text/css" href="Home-based Activity 5.css">
+
+</head>
+<body>
+<p><strong>Name:</strong><u>Allainea R. Atendido</u>&emsp;&emsp;
+<strong>Course/Year/Section:</strong><u>BSIT-II-B</u>&emsp;&emsp;
+<strong>Date:</strong><u>04/07/2022</u></p>
+<hr><hr>
+
+<form action="/action_page.php">
+  <fieldset>
+    <label for="name">Name:&nbsp;</label>
+    <input type="text" id="name" name="name" value=""  size="30"><br>
+    <label for="email">Email:&nbsp;</label>
+    <input type="text" id="email" name="email" value=""   size="30"><br><br>
+
+    <label for="address" class="widearea">Address:</label>
+    <textarea name="deliveryaddress" cols="30" rows="5" style="overflow-y:scroll; resize:none; vertical-align:middle;"></textarea><br>
+  <label for="postcode">Postcode:</label>
+    <input type="text" id="postcode" name="postcode" value=""><br><br><br>
+
+    <! --- Table ---> 
+
+    <table>
+
+      <colgroup>
+        <col style="width:150px">
+      </colgroup>
+  <thead>
+    <tr>
+      <td><b>Product</b></td>
+      <td><b>Part Number</b></td>
+      <td><b>Quantity</b></td>
+      <td><b>Unit Price</b></td>
+      <td><b>Subtotal</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EconoBox</td>
+      <td>LB100</td>
+      <td><input type="text" value="" size="5"></td>
+      <td>R5</td>
+      <td><input type="text" value="" size="10"></td>
+    </tr>
+    <tr>
+      <td>Standard Box</td>
+      <td>LB200</td>
+      <td><input type="text" value="" size="5"></td>
+      <td>R10</td>
+      <td><input type="text" value="" size="10"></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Premium Box</td>
+      <td>LB300</td>
+      <td><input type="text" value="" size="5"></td>
+      <td>R15</td>
+      <td><input type="text" value="" size="10"></td>
+    </tr>
+
+    <tr>
+      <td>Deluxe Box</td>
+      <td>LB400</td>
+      <td><input type="text" value="" size="5"></td>
+      <td>R20</td>
+      <td><input type="text" value="" size="10"></td>
+    </tr>
+
+    <tr>
+      <td>Super Deluxe Box</td>
+      <td>LB500</td>
+      <td><input type="text" value="" size="5"></td>
+      <td>R30</td>
+      <td><input type="text" value="" size="10"></td>
+    </tr>
+
+    <tr>
+     <td colspan="4" scope="rowgroup" style="text-align: right;">Total:</td>
+     <td><input type="text" value="" size="10"></td>
+   </tr>
+  </tfoot>
+</table>
+<br><br>
+
+<! --- Table-End ---> 
+
+<h4>Credit Card Details</h4>
+
+  <label for="card">Card Type:</label><br>
+  <input type="radio" id="card1" name="card" value="Mastercard" >
+  <label for="card1">Mastercard</label>&emsp;&emsp;
+
+  <label for="name">Card Number:&nbsp;</label>
+    <input type="text" id="name" name="name" value=""><br>
+
+  <input type="radio" id="card2" name="card" value="Visa">
+  <label for="card1">Visa</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+  <label for="birthday">Expiry date:&ensp;</label>
+<input type="text" id="expirydate" name="expirydate"  size="5" value=""><br>
+
+  <input type="radio" id="card4" name="card" value="American Express">
+  <label for="card1">American Express</label><br>
+  <input type="radio" id="card4" name="card" value="Diners Club">
+  <label for="card1">Diners Club</label><br><br>
+
+    <label for="deliveryaddress"><b>Delivery Address:</b></label>
+  <textarea name="deliveryaddress" cols="30" rows="5" style="overflow-y:scroll; resize:none; vertical-align:middle;">
+  </textarea><br><br><br>
+ 
+
+
+
+
+
+
+    <input type="submit" value="Send order" style="border-radius: 0;">
+    <input type="reset" value="Clear form" style="border-radius: 0;">
+  </fieldset>
+</form>
+
+
+
+
+</body>
+</html>
